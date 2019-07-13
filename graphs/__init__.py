@@ -6,8 +6,12 @@ T = TypeVar('T', bound='Node')
 
 class Node:
     def __init__(self, name: str):
-        self.name = name
+        self._name = name
         self.children = list()
+
+    @property
+    def name(self):
+        return self._name
 
     def __str__(self):
         return self.name

@@ -1,4 +1,4 @@
-from trees import Node, init_tree, init_graph, init_cycle_graph
+from graphs import Node, init_tree, init_graph, init_cycle_graph
 
 
 def dfs_recursive_tree(root: Node, searched):

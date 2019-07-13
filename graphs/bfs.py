@@ -1,6 +1,6 @@
 from collections import deque
 
-from trees import Node, init_tree, init_graph, init_cycle_graph
+from graphs import Node, init_tree, init_graph, init_cycle_graph
 
 
 def bfs_tree(root: Node, searched):
